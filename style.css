@@ -5,7 +5,8 @@
 }
 
 html{
-    background: url(/images/pexels-moose-photos-1037999.jpg)no-repeat;
+    background: rgb(14, 30, 41);
+    /* background: url(/images/pexels-moose-photos-1037999.jpg)no-repeat; */
     background-size: cover;
     background-blend-mode: darken;
     text-align: center;
@@ -22,11 +23,12 @@ body{
 .clock{
     width: 30rem;
     height: 30rem;
-    border: 20px solid rgb(190, 147, 154);
+    border: 20px solid rgb(216, 142, 154);
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
     padding: 2rem;
+    box-shadow: 2px 2px 2p rgba(2, 2, 2, .06);
 }
 .clock-face{
     position: relative;
@@ -45,4 +47,13 @@ body{
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.42, 2.57, 0.58, 1);
+}
+.sec-hand{
+    background: rgb(199, 190, 190);
+}
+.hour-hand{
+    background: rgb(50, 83, 121);
+}
+.min-hand{
+    background: rgb(49, 111, 170);
 }
